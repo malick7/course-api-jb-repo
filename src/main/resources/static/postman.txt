@@ -1,0 +1,74 @@
+POST addCourse - http://localhost:8095/topics/javascript/courses  -- with JSON body
+PUT/UPDATE updateCourse - http://localhost:8095/topics/javascript/courses/es5 -- with JSON body 
+getAll - http://localhost:8095/topics/javascript/courses
+getById - http://localhost:8095/topics/javascript/courses/es5 <- id
+deleteById - http://localhost:8095/topics/javascript/courses/es5 <- id
+ 
+
+
+[
+    {
+        "id": "es5",
+        "name": "Javacript ES 5 features",
+        "description": "JS ES 5 description",
+        "topic": {
+            "id": "javascript",
+            "name": "Javacript on web",
+            "description": "Javascript desc"
+        }
+    },
+    {
+        "id": "angular",
+        "name": "Angular features",
+        "description": "Angular 2 description",
+        "topic": {
+            "id": "javascript",
+            "name": "Javacript on web",
+            "description": "Javascript desc"
+        }
+    },
+    {
+        "id": "react",
+        "name": "React features",
+        "description": "React description",
+        "topic": {
+            "id": "javascript",
+            "name": "Javacript on web",
+            "description": "Javascript desc"
+        }
+    }
+]
+
+http://localhost:8095/topics/java/courses
+[
+    {
+        "id": "threading",
+        "name": "Multi threading in Java",
+        "description": "Multi Threading concept description",
+        "topic": {
+            "id": "java",
+            "name": "Core Java",
+            "description": "Java description"
+        }
+    },
+    {
+        "id": "oops",
+        "name": "OOPS in Java",
+        "description": "OOPS concepts description",
+        "topic": {
+            "id": "java",
+            "name": "Core Java",
+            "description": "Java description"
+        }
+    },
+    {
+        "id": "streams",
+        "name": "java-streams Java",
+        "description": "Streams in Java 8 description",
+        "topic": {
+            "id": "java",
+            "name": "Core Java",
+            "description": "Java description"
+        }
+    }
+]
