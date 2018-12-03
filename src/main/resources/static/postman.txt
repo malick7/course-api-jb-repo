@@ -72,3 +72,37 @@ http://localhost:8095/topics/java/courses
         }
     }
 ]
+
+//LESSONS
+[
+    {
+        "id": "map",
+        "name": "Java 8 Streams - lesson 1 - Map, reduce, filter",
+        "description": "Java 8 Streams - lesson 1 - Map, reduce, filter Description",
+        "course": {
+            "id": "streams",
+            "name": "Java 8 Streams API",
+            "description": "Java 8 Streams API description",
+            "topic": {
+                "id": "java",
+                "name": "Core Java",
+                "description": "Core Java description"
+            }
+        }
+    },
+    {
+        "id": "lambda",
+        "name": "Java 8 Streams - lesson 2 - Lambda Expressions",
+        "description": "Java 8 Streams - lesson 2 - Lambda Expressions description",
+        "course": {
+            "id": "streams",
+            "name": "Java 8 Streams API",
+            "description": "Java 8 Streams API description",
+            "topic": {
+                "id": "java",
+                "name": "Core Java",
+                "description": "Core Java description"
+            }
+        }
+    }
+]
